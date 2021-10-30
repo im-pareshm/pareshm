@@ -29,7 +29,7 @@ header {
   letter-spacing: 5px;
   font-size: 25px;
 }
-ul li a{
+ul li a {
   font-size: 20px;
   transition-property: transform;
   transition: 0.6s;
@@ -37,7 +37,7 @@ ul li a{
 }
 ul li a:hover {
   transform: scale(1.1);
-  color: #FF4C29;
+  color: #ff4c29;
   text-decoration: underline;
 }
 .home {
@@ -53,7 +53,7 @@ ul li a:hover {
 .name {
   font-size: 65px;
   letter-spacing: 10px;
-  color: #FF4C29;
+  color: #ff4c29;
 }
 .home p {
   font-size: 28px;
@@ -67,12 +67,12 @@ ul li a:hover {
   border: none;
   border-radius: 12px;
   transition-property: transform;
-  transition-duration: .2s;
+  transition-duration: 0.2s;
 }
-.home span{
+.home span {
   font-size: 22px;
 }
-.icons i{
+.icons i {
   font-size: 35px;
   width: 50px;
 }
@@ -88,7 +88,7 @@ ul li a:hover {
   width: 55vw;
   min-width: 300px;
 } */
-.about{
+.about {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -96,7 +96,7 @@ ul li a:hover {
   margin-top: 150px;
   /* padding: 8% 5%; */
 }
-.about-left{
+.about-left {
   display: inline-block;
   width: 49%;
   height: 30%;
@@ -104,28 +104,29 @@ ul li a:hover {
   /* border: 2px solid purple; */
   overflow: hidden;
 }
-.about-left img{
+.about-left img {
   display: block;
   margin: auto;
   width: 80%;
 }
-.about-right{
+.about-right {
   display: inline-block;
   width: 49%;
   height: 30%;
   margin: 10px;
   padding: 20px 33px;
+  word-wrap: break-word;
   /* border:  2px solid blue; */
 }
-.about-right h1{
+.about-right h1 {
   color: white;
-  font-size: 2rem;
+  font-size: 4vw;
   margin-bottom: 30px;
 }
-.about-right p{
-  font-size: 1.5rem;
+.about-right p {
+  font-size: 2vw;
 }
-.about-right span{
+.about-right span {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 2vw;
 }
