@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paresh Mestry</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <script
       src="https://kit.fontawesome.com/9b0e2df3f9.js"
       crossorigin="anonymous"
@@ -19,8 +19,8 @@
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -41,7 +41,7 @@
           <button id="download-btn" type="submit">Download Resume</button>
           <div class="about" id="about">
             <div class="about-left">
-              <img src="profile1.jpg" alt="my-profile" />
+              <img src="images/profile1.jpg" alt="my-profile" />
             </div>
             <div class="about-right">
               <h1>About Me</h1>
@@ -56,6 +56,52 @@
               </p>
               <button id="download-btn" type="submit">Download Resume</button>
             </div>
+          </div>
+          <div class="resume" id="resume">
+            <div class="education">
+              <h1 class="title">Education</h1>
+              <h1>Diploma in Computer Engineering</h1>
+              <h3>Govt. Polytechnic College Malvan</h3>
+              <h3>2019-2021</h3>
+            </div>
+            <div class="techskills"><span></span>
+              <h1 class="title">Technical skills</h1>
+              <h3>Programing Language&nbsp;&nbsp; :&nbsp;&nbsp; Python, Basic C/C++</h3>
+              <h3>Web Technology &nbsp;&nbsp;:&nbsp;&nbsp; HTML, CSS, Javascript, Php</h3>
+              <h3>Database&nbsp;&nbsp; :&nbsp;&nbsp; Mysql</h3>
+              <h3>Operating System&nbsp;&nbsp; :&nbsp;&nbsp; Linux, Windows</h3>
+              <h3>Cloud Computing&nbsp;&nbsp; :&nbsp;&nbsp; Google Cloud Platform</h3>
+              <h3>Tools&nbsp;&nbsp; :&nbsp;&nbsp; MS office</h3>
+            </div>
+          </div>
+          <div class="projects" id="projects">
+            <h1 class="title">Projects</h1>
+            <div class="box">
+            <h2>Linux Emulator Web Application</h2>
+            <p>Linux Emulator is a web application basic motivation behind Linux emulator is to help people learn about Linux and its concepts.</p>
+            <p>In Linux emulator web application we added five sections commands, terminal, Chabot, offline version, and about section.</p>
+            <ul>
+              <li><h3>Commands</h3>
+                In this section we have added commands as there description. </li>
+              <li>
+                <h3>Terminal</h3>
+                We provided terminal to use to practice commands.
+              </li>
+              <li>
+                <h3>Chabot</h3>
+                Chabot to answer FAQ.
+              </li>
+              <li>
+                <h3>Offline version</h3>
+                Downloadable offline version.
+              </li>
+            </ul>
+          </div>
+          <div class="box">
+            <h2>Customer feedback form using php and MySQL</h2>
+            <p>Customer feedback for that will take feedback from customer and store it in database. For database we used MySQL also after filling feedback form user can see recent feedback of other users also.</p>
+            <p>Used php to connect to database and store user feedback in feedback table and also to retrieve data.</p>
+          </div>
           </div>
         </div>
         <div id="home"></div>
