@@ -17,7 +17,7 @@ body::-webkit-scrollbar{
 ul li {
   list-style: none;
   display: inline-block;
-  padding: 18px 10px;
+  padding: 10px 8px;
 }
 header {
   position: fixed;
@@ -34,16 +34,17 @@ header {
   padding: 18px 10px;
   font-weight: bold;
   letter-spacing: 5px;
-  font-size: 2vw;
+  font-size: 2.9vw;
 }
 ul li a {
   text-decoration: none;
+  font-size: 2vw;
 }
 ul li a:hover {
   color: #ff4c29;
 }
 ul li {
-  font-size: 1.4vw;
+  
   transition-property: transform;
   transition: 0.6s;
 }
@@ -121,7 +122,7 @@ ul li:hover {
 .about-left img {
   display: block;
   margin: auto;
-  width: 75%;
+  width: 25vw;
   border-radius: 10px;
 }
 .about-right {
