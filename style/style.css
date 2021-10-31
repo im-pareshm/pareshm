@@ -34,7 +34,7 @@ header {
   padding: 18px 10px;
   font-weight: bold;
   letter-spacing: 5px;
-  font-size: 25px;
+  font-size: 2vw;
 }
 ul li a {
   text-decoration: none;
@@ -43,7 +43,7 @@ ul li a:hover {
   color: #ff4c29;
 }
 ul li {
-  font-size: 20px;
+  font-size: 1.4vw;
   transition-property: transform;
   transition: 0.6s;
 }
